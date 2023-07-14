@@ -95,7 +95,8 @@ def run(data=None):
 
 if __name__ == "__main__":
     
-    set_env("mongodb://localhost:27018/","DBproduct_eng","product_detection_data")
+    # DB 환경을 설정하세요
+    set_env(host="",db_name="",collection_name="")
     datas = get_datas(100)
     
     open_cv()
